@@ -1,0 +1,79 @@
+@import "@/styles/modules/root";
+@import "@/styles/components/hero";
+@import "@/styles/components/about";
+@import "@/styles/components/procedures";
+
+@import "@/styles/pages/estetica-dental";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  color: $grey;
+
+  --global-gap: #{$global-gap};
+  --global-padding: #{$global-gap};
+  --globalRadius: #{$global-radius};
+  --globalShadow: 0px 0px 18px 10px rgba(0, 0, 0, 0.05);
+
+  --site-width: #{$site-width};
+
+  --primary-font: #{$primary-font};
+  --heading-font: #{$heading-font};
+
+  --orange: #{$orange};
+  --black: #{$black};
+  --purple: #{$purple};
+  --dark-blue: #{$dark-blue};
+  --grey: #{$grey};
+  --light-grey: #{$light-grey};
+  --snow: #{$snow};
+  --danger: #{$danger};
+  --success: #{$success};
+  --warning: #{$warning};
+}
+
+a {
+  text-decoration: inherit;
+}
+
+p {
+  margin-bottom: $global-gap;
+}
+
+.site-wrapper {
+  margin-top: rem-calc(64);
+  padding-bottom: rem-calc(80);
+}
+
+.container {
+  width: 100%;
+  max-width: $site-width;
+  margin: 0 auto;
+  padding: 0 $global-gap;
+
+  &.collapse {
+    padding: 0;
+  }
+}
+
+.section-title {
+  margin-bottom: rem-calc(60);
+
+  font-size: rem-calc(28);
+
+  @include md {
+    font-size: rem-calc(48);
+  }
+}

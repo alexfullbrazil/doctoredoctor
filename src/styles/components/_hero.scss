@@ -1,0 +1,114 @@
+$square: 25px;
+
+.hero-wrapper {
+  background: $orange;
+  @include flex-centered;
+}
+
+.hero {
+  width: 100%;
+  max-width: $site-width;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  @include md {
+    flex-direction: row;
+  }
+
+  position: relative;
+
+  &::after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: "";
+    width: $square;
+    height: $square;
+    background: white;
+  }
+
+  &::before {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: "";
+    width: $square;
+    height: $square;
+    margin-bottom: $square;
+    margin-right: $square;
+    background: white;
+  }
+}
+
+.hero-logo-wrapper {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: $global-gap;
+
+  svg {
+    width: 125px;
+
+    @include md {
+      width: 150px;
+    }
+  }
+}
+
+.hero-image-wrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: baseline;
+  height: 340px;
+
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  @include md {
+    height: auto;
+  }
+}
+
+.hero-content-wrapper {
+  @include flex-centered;
+  width: 100%;
+  padding: $global-gap;
+}
+
+.hero-content {
+  color: white;
+  max-width: rem-calc(320);
+
+  padding: 40px 0;
+
+  @include md {
+    padding: 0;
+  }
+
+  h1 {
+    font-size: em-calc(32);
+    line-height: 100%;
+    margin-bottom: rem-calc(24);
+
+    span {
+      color: $black;
+    }
+
+    @include md {
+      font-size: em-calc(48);
+    }
+  }
+
+  h2 {
+    font-weight: 300;
+    font-size: em-calc(18);
+    margin-bottom: rem-calc(24);
+  }
+}
