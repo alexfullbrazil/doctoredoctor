@@ -20,14 +20,14 @@ export default function LentesDePorcelana() {
             "Com as Lentes de Contato Dental de Porcelana é possível recuperar a beleza e a genuinidade do seu sorriso.",
           images: [
             {
-              url: "https://esteticadental.doctoredoctor.com.br//assets/images/og/og-image-lentes-de-porcelana.jpg",
+              url: "https://esteticadental.doctoredoctor.com.br/assets/images/og/og-image-lentes-de-porcelana.jpg",
               width: 1200,
               height: 600,
               alt: "Lentes de Contato Dental de Porcelana | Doctor&doctor",
               type: "image/jpeg",
             },
             {
-              url: "https://esteticadental.doctoredoctor.com.br//assets/images/og/og-image-lentes-de-porcelana.jpg",
+              url: "https://esteticadental.doctoredoctor.com.br/assets/images/og/og-image-lentes-de-porcelana.jpg",
             },
           ],
           siteName: "Doctor&doctor",
