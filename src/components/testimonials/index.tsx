@@ -1,5 +1,6 @@
 import { DataTestimonials } from "@/data/testimonials/data.testimonials";
 import { TestimonialsItem } from "./testimonial-item";
+import { Cta } from "../cta";
 
 export function Testimonials() {
   return (
@@ -18,6 +19,11 @@ export function Testimonials() {
             );
           })}
         </div>
+        <Cta
+          color={"white"}
+          background={"var(--orange)"}
+          buttonText="Quero falar com um atendente"
+        />
       </div>
     </section>
   );

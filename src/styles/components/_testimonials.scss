@@ -36,6 +36,10 @@
     margin-right: $square;
     background: white;
   }
+
+  a {
+    margin: rem-calc(40) auto;
+  }
 }
 
 .testimonials-grid {
