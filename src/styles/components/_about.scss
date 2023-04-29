@@ -32,12 +32,41 @@ $square: 25px;
   }
 }
 
+.about-logo-grid {
+  @include flex-centered;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: rem-calc(60);
+  gap: rem-calc(30);
+
+  svg {
+    width: 100%;
+    max-width: rem-calc(180);
+    height: auto;
+  }
+}
+
+.about-logo-wrapper {
+  max-width: rem-calc(390);
+  text-align: right;
+}
+.about-slogan-wrapper {
+  max-width: rem-calc(390);
+  border-left: 2px solid $orange;
+  padding: rem-calc(30);
+  font-size: rem-calc(16);
+
+  @include md {
+    font-size: rem-calc(20);
+  }
+}
+
 .about-content {
   @include flex-centered;
-  text-align: center;
+  // text-align: center;
   color: $black;
   width: 100%;
-  max-width: rem-calc(780);
+  max-width: rem-calc(840);
 
   padding: 140px $global-padding;
 
@@ -49,9 +78,9 @@ $square: 25px;
 
   h3 {
     font-weight: 300;
-    font-size: em-calc(22);
+    font-size: em-calc(20);
     margin-bottom: rem-calc(24);
-    line-height: 140%;
+    line-height: 160%;
 
     b {
       span {
@@ -63,6 +92,7 @@ $square: 25px;
   h2 {
     max-width: rem-calc(480);
     margin-top: rem-calc(40);
+    text-align: center;
   }
 
   a {

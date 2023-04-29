@@ -5,8 +5,8 @@ import { AccordionProps } from "./index";
 export const AccordionWrapper = styled.div<AccordionProps>`
   width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
   flex-direction: column;
   border-bottom: 1px solid var(--light-grey);
   margin-bottom: var(--global-gap);

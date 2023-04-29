@@ -2,8 +2,11 @@
 @import "@/styles/components/hero";
 @import "@/styles/components/about";
 @import "@/styles/components/procedures";
+@import "@/styles/components/cases";
+@import "@/styles/components/testimonials";
+@import "@/styles/components/faq";
 
-@import "@/styles/pages/estetica-dental";
+@import "@/styles/pages/lentes-de-porcelana";
 
 * {
   margin: 0;
@@ -13,7 +16,7 @@
 
 :root {
   font-family: "Inter", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -24,8 +27,8 @@
 
   --global-gap: #{$global-gap};
   --global-padding: #{$global-gap};
-  --globalRadius: #{$global-radius};
-  --globalShadow: 0px 0px 18px 10px rgba(0, 0, 0, 0.05);
+  --global-radius: #{$global-radius};
+  --global-shadow: 0px 0px 18px 10px rgba(0, 0, 0, 0.05);
 
   --site-width: #{$site-width};
 
@@ -59,7 +62,7 @@ p {
 
 .container {
   width: 100%;
-  max-width: $site-width;
+  max-width: rem-calc(840);
   margin: 0 auto;
   padding: 0 $global-gap;
 

@@ -20,13 +20,12 @@ export function Hero() {
         </div>
         <div className="hero-content-wrapper">
           <div className="hero-content">
-            <h1>
-              Agora é o seu momento de <span>sorrir com confiança!</span>
-            </h1>
-            <h2>
-              Com Facetas Dentais ou Lentes de Contato é possível recuperar a
-              beleza e a genuinidade do seu sorriso.
-            </h2>
+            <h1>Lentes de Contato Dental de Porcelana</h1>
+            <h2>Agora é o seu momento de sorrir com confiança!</h2>
+            <h3>
+              Com as <b>Lentes de Contato Dental de Porcelana</b> é possível
+              recuperar a beleza e a genuinidade do seu sorriso.
+            </h3>
             <Cta
               buttonText={"Agende agora sua consulta"}
               color={"white"}

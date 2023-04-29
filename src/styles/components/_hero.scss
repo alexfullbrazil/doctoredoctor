@@ -93,20 +93,24 @@ $square: 25px;
   }
 
   h1 {
+    font-size: em-calc(24);
+    margin-bottom: rem-calc(24);
+    max-width: rem-calc(250);
+  }
+
+  h2 {
     font-size: em-calc(32);
     line-height: 100%;
     margin-bottom: rem-calc(24);
 
-    span {
-      color: $black;
-    }
+    color: $black;
 
     @include md {
       font-size: em-calc(48);
     }
   }
 
-  h2 {
+  h3 {
     font-weight: 300;
     font-size: em-calc(18);
     margin-bottom: rem-calc(24);

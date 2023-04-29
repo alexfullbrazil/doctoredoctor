@@ -467,7 +467,7 @@ acorn@^8.8.0:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.8.2.tgz#1b2f25db02af965399b9776b0c2c391276d37c4a"
   integrity sha512-xjIYgE8HBrkpd/sJqOGNspf8uHG+NOHGOw6a/Urj8taM2EXfdNAH2oFcPeIFfsv3+kz/mJrS5VuMqbNLjCa2vw==
 
-afb-react-svg@^1.0.1:
+afb-react-svg@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/afb-react-svg/-/afb-react-svg-1.0.2.tgz#5a36b069da00a826e22e8eba3222b9197548d1ba"
   integrity sha512-BErao6fCUfSWyUKtSR1sB9k7TImeTG+q97ni2KDhnlRUt54CNxsXWfJQ3Ze7F4dXfkNCIjTrnVvqYE0d7ifOaw==
@@ -1819,6 +1819,11 @@ natural-compare@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
+
+next-seo@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/next-seo/-/next-seo-6.0.0.tgz#4568dc61a44dbdf5fe5ff44156cd0ff8804889a2"
+  integrity sha512-jKKt1p1z4otMA28AyeoAONixVjdYmgFCWwpEFtu+DwRHQDllVX3RjtyXbuCQiUZEfQ9rFPBpAI90vDeLZlMBdg==
 
 next@13.3.0:
   version "13.3.0"

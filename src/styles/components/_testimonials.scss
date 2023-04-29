@@ -1,0 +1,21 @@
+.testimonials-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $black;
+  padding: rem-calc(80) 0;
+
+  h2 {
+    color: white;
+    text-align: center;
+
+    span {
+      color: $orange;
+    }
+  }
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+}
