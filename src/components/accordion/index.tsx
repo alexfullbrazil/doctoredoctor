@@ -1,7 +1,6 @@
 import { ReactNode, useState } from "react";
 import {
   AccordionWrapper,
-  AccordionContainer,
   AccordionTitleWrapper,
   AccordionTrigger,
   AccordionContent,
