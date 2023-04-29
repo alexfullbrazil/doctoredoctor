@@ -1,0 +1,16 @@
+.footer-wrapper {
+  padding: rem-calc(120) $global-padding;
+  @include flex-centered;
+
+  p {
+    text-align: center;
+    font-size: rem-calc(14);
+    line-height: 100%;
+    margin-bottom: rem-calc(12);
+  }
+
+  a {
+    color: $black;
+    font-weight: bold;
+  }
+}

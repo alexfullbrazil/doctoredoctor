@@ -1,9 +1,10 @@
-.testimonials-wrapper {
+$square: 25px;
+
+.contact-us-wrapper {
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: $black;
+  @include flex-centered;
+  background: $orange;
+
   padding: rem-calc(80) 0;
 
   h2 {
@@ -11,8 +12,23 @@
     text-align: center;
 
     span {
-      color: $orange;
+      color: $black;
     }
+  }
+
+  p {
+    font-size: rem-calc(18);
+    text-align: center;
+    line-height: 150%;
+    color: white;
+  }
+
+  div {
+    @include flex-centered;
+  }
+
+  a {
+    margin-top: rem-calc(60);
   }
 
   &::after {
@@ -36,9 +52,4 @@
     margin-right: $square;
     background: white;
   }
-}
-
-.testimonials-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
 }
