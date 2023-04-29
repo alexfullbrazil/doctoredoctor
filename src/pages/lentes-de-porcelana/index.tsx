@@ -12,6 +12,10 @@ export default function LentesDePorcelana() {
     <>
       <Head>
         <title>Lentes de Contato Dental de Porcelana | Doctor&doctor</title>
+        <meta
+          name="description"
+          content="Com as Lentes de Contato Dental de Porcelana é possível recuperar a beleza e a genuinidade do seu sorriso."
+        />
         <meta property="og:site_name" content="Doctor&doctor" />
         <meta
           property="og:title"
@@ -25,7 +29,7 @@ export default function LentesDePorcelana() {
           property="og:url"
           content="https://esteticadental.doctoredoctor.com.br/lentes-de-porcelana"
         />
-        <meta property="og:type" content="article" />
+        <meta property="og:type" content="website" />
         <meta
           property="og:image"
           content="https://esteticadental.doctoredoctor.com.br/assets/images/og/og-image-lentes-de-porcelana.jpg"
