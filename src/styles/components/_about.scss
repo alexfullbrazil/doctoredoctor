@@ -34,36 +34,42 @@ $square: 25px;
 
 .about-logo-grid {
   @include flex-centered;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
   margin-bottom: rem-calc(60);
   gap: rem-calc(30);
 
-  svg {
-    width: 100%;
-    max-width: rem-calc(180);
-    height: auto;
+  @include md {
+    flex-direction: row;
   }
 }
 
 .about-logo-wrapper {
-  max-width: rem-calc(390);
+  @include flex-centered;
   text-align: right;
 }
+
 .about-slogan-wrapper {
+  @include flex-centered;
   max-width: rem-calc(390);
-  border-left: 2px solid $orange;
-  padding: rem-calc(30);
+
   font-size: rem-calc(16);
 
   @include md {
     font-size: rem-calc(20);
+    border-left: 2px solid $orange;
+    padding: rem-calc(30);
   }
 }
 
 .about-slogan {
   font-weight: bold;
   margin: 0;
+  text-align: center;
+
+  @include md {
+    text-align: left;
+  }
 }
 
 .about-content {
@@ -72,13 +78,7 @@ $square: 25px;
   width: 100%;
   max-width: rem-calc(840);
 
-  padding: 140px $global-padding;
-
-  svg {
-    width: rem-calc(220);
-    height: rem-calc(86);
-    margin-bottom: rem-calc(80);
-  }
+  padding: rem-calc(140) $global-padding;
 
   .about-text {
     font-weight: 300;

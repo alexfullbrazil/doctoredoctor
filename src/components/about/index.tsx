@@ -7,7 +7,7 @@ export function About() {
       <div className="about-content">
         <div className="about-logo-grid">
           <div className="about-logo-wrapper">
-            <Svg src="logo.svg" width={200} height={79} />
+            <Svg src="logo.svg" />
           </div>
           <div className="about-slogan-wrapper">
             <p className="about-slogan">
