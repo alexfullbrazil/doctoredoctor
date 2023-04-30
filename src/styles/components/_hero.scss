@@ -3,19 +3,6 @@ $square: 25px;
 .hero-wrapper {
   background: $orange;
   @include flex-centered;
-}
-
-.hero {
-  width: 100%;
-  max-width: $site-width;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-
-  @include md {
-    flex-direction: row;
-  }
 
   position: relative;
 
@@ -39,6 +26,19 @@ $square: 25px;
     margin-bottom: $square;
     margin-right: $square;
     background: white;
+  }
+}
+
+.hero {
+  width: 100%;
+  max-width: $site-width;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  @include md {
+    flex-direction: row;
   }
 }
 

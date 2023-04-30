@@ -26,6 +26,30 @@ $square: 25px;
     line-height: 160%;
     text-align: center;
   }
+
+  position: relative;
+
+  &::after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: "";
+    width: $square;
+    height: $square;
+    background: $black;
+  }
+
+  &::before {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: "";
+    width: $square;
+    height: $square;
+    margin-bottom: $square;
+    margin-right: $square;
+    background: $black;
+  }
 }
 
 .cases-before-after-grid {

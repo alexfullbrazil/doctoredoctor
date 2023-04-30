@@ -467,10 +467,10 @@ acorn@^8.8.0:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.8.2.tgz#1b2f25db02af965399b9776b0c2c391276d37c4a"
   integrity sha512-xjIYgE8HBrkpd/sJqOGNspf8uHG+NOHGOw6a/Urj8taM2EXfdNAH2oFcPeIFfsv3+kz/mJrS5VuMqbNLjCa2vw==
 
-afb-react-svg@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/afb-react-svg/-/afb-react-svg-1.0.2.tgz#5a36b069da00a826e22e8eba3222b9197548d1ba"
-  integrity sha512-BErao6fCUfSWyUKtSR1sB9k7TImeTG+q97ni2KDhnlRUt54CNxsXWfJQ3Ze7F4dXfkNCIjTrnVvqYE0d7ifOaw==
+afb-react-svg@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/afb-react-svg/-/afb-react-svg-1.0.3.tgz#baf0e0cb11c23a3ad62ef77be0135c7ec2bad63d"
+  integrity sha512-1gJCKPm6mxUkdbFBShvp1SqRtno0Ia7NaT9eZca3br8bfBu/TMRX8IIYDB+cEqJFSLAig1CPAWsLYzZP+TV7kg==
   dependencies:
     react-svg "^16.1.8"
     styled-components "^5.3.9"
