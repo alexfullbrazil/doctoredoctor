@@ -1,6 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
-
 import { Svg } from "afb-react-svg";
 
 export default function Home() {

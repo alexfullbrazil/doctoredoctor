@@ -1,6 +1,3 @@
-import Image from "next/image";
-import { Cta } from "../cta";
-import { Svg } from "afb-react-svg";
 import { useState } from "react";
 
 export function Procedures() {

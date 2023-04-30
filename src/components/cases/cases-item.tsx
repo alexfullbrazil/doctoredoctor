@@ -1,7 +1,5 @@
 import Image from "next/image";
-import { Cta } from "../cta";
-import { Svg } from "afb-react-svg";
-import { ReactNode, useState } from "react";
+import { useState } from "react";
 
 interface CasesItemProps {
   imageBefore?: string;

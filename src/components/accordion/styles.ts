@@ -19,8 +19,6 @@ export const AccordionWrapper = styled.div<AccordionProps>`
   }
 `;
 
-export const AccordionContainer = styled.div<AccordionProps>``;
-
 export const AccordionTitleWrapper = styled.div<AccordionProps>`
   position: relative;
   color: var(--black);
