@@ -2,6 +2,7 @@ import { ReactNode, useState } from "react";
 import {
   AccordionWrapper,
   AccordionTitleWrapper,
+  AccordionTitle,
   AccordionTrigger,
   AccordionContent,
 } from "./styles";
@@ -24,7 +25,7 @@ export function Accordion({ content, title, children }: AccordionProps) {
         >
           {!open ? "+" : "-"}
         </AccordionTrigger>
-        <h4>{title}</h4>
+        <AccordionTitle>{title}</AccordionTitle>
       </AccordionTitleWrapper>
       {open && <AccordionContent>{content}</AccordionContent>}
       {children}

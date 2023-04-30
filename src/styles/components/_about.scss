@@ -61,9 +61,13 @@ $square: 25px;
   }
 }
 
+.about-slogan {
+  font-weight: bold;
+  margin: 0;
+}
+
 .about-content {
   @include flex-centered;
-  // text-align: center;
   color: $black;
   width: 100%;
   max-width: rem-calc(840);
@@ -76,7 +80,7 @@ $square: 25px;
     margin-bottom: rem-calc(80);
   }
 
-  h3 {
+  .about-text {
     font-weight: 300;
     font-size: em-calc(20);
     margin-bottom: rem-calc(24);
@@ -89,10 +93,12 @@ $square: 25px;
     }
   }
 
-  h2 {
+  .about-text-footer {
     max-width: rem-calc(480);
     margin-top: rem-calc(40);
     text-align: center;
+    font-weight: bold;
+    font-size: rem-calc(20);
   }
 
   a {

@@ -10,14 +10,14 @@ export function About() {
             <Svg src="logo.svg" width={200} height={79} />
           </div>
           <div className="about-slogan-wrapper">
-            <h4>
+            <p className="about-slogan">
               A perfeita sintonia entre estética dental e harmonização
               orofacial.
-            </h4>
+            </p>
           </div>
         </div>
 
-        <h3>
+        <p className="about-text">
           Na{" "}
           <b>
             Doctor<span>&</span>doctor
@@ -36,10 +36,10 @@ export function About() {
           elegantes e joviais. Venha nos conhecer e experimente a perfeita
           sintonia entre estética dental e harmonização orofacial para um
           sorriso saudável e radiante que destaca a sua beleza natural.
-        </h3>
-        <h2>
+        </p>
+        <p className="about-text-footer">
           Venha nos conhecer e desfrute de um sorriso saudável e radiante.
-        </h2>
+        </p>
         <Cta
           buttonText={"Agende agora sua consulta"}
           color={"white"}

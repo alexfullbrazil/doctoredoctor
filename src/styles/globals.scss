@@ -82,3 +82,13 @@ p {
     font-size: rem-calc(48);
   }
 }
+
+.section-sub-title {
+  font-size: rem-calc(22);
+  font-weight: bold;
+}
+
+.section-description {
+  font-size: rem-calc(20);
+  margin-bottom: rem-calc(40);
+}

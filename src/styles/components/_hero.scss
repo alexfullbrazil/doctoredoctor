@@ -92,16 +92,17 @@ $square: 25px;
     padding: 0;
   }
 
-  h1 {
+  .hero-title {
     font-size: em-calc(24);
     margin-bottom: rem-calc(24);
     max-width: rem-calc(250);
   }
 
-  h2 {
+  .hero-sub-title {
     font-size: em-calc(32);
     line-height: 100%;
     margin-bottom: rem-calc(24);
+    font-weight: bold;
 
     color: $black;
 
@@ -110,7 +111,7 @@ $square: 25px;
     }
   }
 
-  h3 {
+  .hero-description {
     font-weight: 300;
     font-size: em-calc(18);
     margin-bottom: rem-calc(24);

@@ -23,10 +23,13 @@ export const AccordionTitleWrapper = styled.div<AccordionProps>`
   position: relative;
   color: var(--black);
   cursor: pointer;
+`;
 
-  h4 {
-    margin-right: 60px;
-  }
+export const AccordionTitle = styled.p<AccordionProps>`
+  margin-right: 60px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
 `;
 
 export const AccordionTrigger = styled.div<AccordionProps>`
@@ -53,4 +56,5 @@ export const AccordionContent = styled.div<AccordionProps>`
   padding: var(--global-padding);
   border-left: 4px solid var(--orange);
   margin-top: var(--global-gap);
+  line-height: 150%;
 `;

@@ -20,12 +20,16 @@ export function Hero() {
         </div>
         <div className="hero-content-wrapper">
           <div className="hero-content">
-            <h1>Lentes de Contato Dental de Porcelana</h1>
-            <h2>Agora é o seu momento de sorrir com confiança!</h2>
-            <h3>
+            <h1 className="hero-title">
+              Lentes de Contato Dental de Porcelana
+            </h1>
+            <p className="hero-sub-title">
+              Agora é o seu momento de sorrir com confiança!
+            </p>
+            <p className="hero-description">
               Com as <b>Lentes de Contato Dental de Porcelana</b> é possível
               recuperar a beleza e a genuinidade do seu sorriso.
-            </h3>
+            </p>
             <Cta
               buttonText={"Agende agora sua consulta"}
               color={"white"}

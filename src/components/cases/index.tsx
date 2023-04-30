@@ -9,11 +9,11 @@ export function Cases() {
           <h2 className="section-title">
             <span>Casos de</span> Sucesso!
           </h2>
-          <h3>
+          <p className="section-sub-title">
             Veja alguns casos clínicos que revigoraram a autoestima de nossos
             pacientes e que comprovam a qualidade e resultados únicos em nossos
             procedimentos.
-          </h3>
+          </p>
 
           {DataCases.map((item, index) => {
             return (

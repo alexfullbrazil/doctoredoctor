@@ -12,12 +12,14 @@ export function Procedures() {
         </h2>
       </div>
       <div className="procedures-content">
-        <h3>
+        <p className="section-description">
           A técnica de lente de contato para os dentes consiste em preparar cada
           dente em porcelana, pensado unicamente para cada biotipo da pessoa,
           levando em consideração principalmente a cor, formato e tamanho.
-        </h3>
-        <h4>São recomendadas se você quiser resolver:</h4>
+        </p>
+        <p className="section-sub-title">
+          São recomendadas se você quiser resolver:
+        </p>
         <ul>
           <li>Fechamento de diastemas (espaços entre os dentes)</li>
           <li>Comprimento dos dentes</li>
@@ -28,7 +30,9 @@ export function Procedures() {
 
         <div className={`procedures-content-more ${show ? "show" : ""}`}>
           <hr />
-          <h4>O que são Lentes de Contato Dental de Porcelana</h4>
+          <p className="section-sub-title">
+            O que são Lentes de Contato Dental de Porcelana
+          </p>
           <p>
             Se você busca um sorriso radiante e perfeito, as lentes de contato
             dental de porcelana podem ser a solução ideal para você. Elas são
@@ -57,7 +61,7 @@ export function Procedures() {
             sacrificar a saúde dos seus dentes
           </p>
           <hr />
-          <h4>Diferenciais</h4>
+          <p className="section-sub-title">Diferenciais</p>
           <p>
             Na{" "}
             <b>
@@ -98,7 +102,7 @@ export function Procedures() {
             eficientes e altamente personalizados.
           </p>
           <hr />
-          <h4>Para quem são recomendadas</h4>
+          <p className="section-sub-title">Para quem são recomendadas</p>
           <p>
             As lentes de contato dental de porcelana são uma excelente opção
             para quem sofre com dentes amarelados ou escurecidos, pois elas
