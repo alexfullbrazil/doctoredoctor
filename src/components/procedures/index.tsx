@@ -21,6 +21,7 @@ export function Procedures() {
           São recomendadas se você quiser resolver:
         </p>
         <ul>
+          <li>Mudar a Cor e forma dos dentes</li>
           <li>Fechamento de diastemas (espaços entre os dentes)</li>
           <li>Comprimento dos dentes</li>
           <li>Aumento de volume</li>
