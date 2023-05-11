@@ -21,7 +21,7 @@ export function Testimonials() {
         </div>
         <Cta
           color={"white"}
-          background={"var(--orange)"}
+          background={"var(--black)"}
           buttonText="Quero falar com um atendente"
         />
       </div>

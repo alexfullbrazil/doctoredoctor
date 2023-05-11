@@ -19,6 +19,6 @@ export const CtaButton = styled(Link)<CtaProps>`
   width: fit-content;
 
   svg {
-    margin: 3px 3px 0 0;
+    margin: 4px 3px 0 0;
   }
 `;
