@@ -1,4 +1,5 @@
 import { CtaButton } from "./styles";
+import { Svg } from "afb-react-svg";
 
 export interface CtaProps {
   buttonText?: string;
@@ -14,7 +15,7 @@ export function Cta({ buttonText, color, background }: CtaProps) {
       background={background}
       color={color}
     >
-      {buttonText}
+      {buttonText} <Svg src={"assets/images/icons/whatsapp.svg"} />
     </CtaButton>
   );
 }
