@@ -10,20 +10,15 @@ export const CtaButton = styled(Link)<CtaProps>`
   color: ${(props) => (props.color ? props.color : "")};
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 15px 25px;
-  width: 100%;
+  justify-content: space-between;
+  padding: 5px 5px 5px 18px;
   border-radius: 999px;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
+  gap: 12px;
+  width: fit-content;
 
-  @media (min-width: 768px) {
-    width: fit-content;
+  svg {
+    margin: 3px 3px 0 0;
   }
-
-  /* &:hover {
-   
-      opacity: 1;
-    }
-  } */
 `;
