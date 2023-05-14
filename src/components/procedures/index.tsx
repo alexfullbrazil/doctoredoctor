@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { YoutubeVideo } from "../youtube-video";
 
 export function Procedures() {
   const [show, setShow] = useState<boolean>(false);
@@ -12,6 +13,11 @@ export function Procedures() {
         </h2>
       </div>
       <div className="procedures-content">
+        <YoutubeVideo url="https://www.youtube.com/embed/rZ0OVBlTdeg" />
+
+        <br />
+        <br />
+
         <p className="section-description">
           A técnica de lente de contato para os dentes consiste em preparar cada
           dente em porcelana, pensado unicamente para cada biotipo da pessoa,
