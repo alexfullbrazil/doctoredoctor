@@ -1,4 +1,4 @@
-import { YoutubeVideoContainer } from './styles';
+import { YoutubeVideoContainer } from "./styles";
 
 interface YoutubeVideoProps {
   url?: string;

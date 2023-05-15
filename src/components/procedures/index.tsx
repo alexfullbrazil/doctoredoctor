@@ -13,16 +13,25 @@ export function Procedures() {
         </h2>
       </div>
       <div className="procedures-content">
-        <YoutubeVideo url="https://www.youtube.com/embed/rZ0OVBlTdeg" />
-
-        <br />
-        <br />
-
         <p className="section-description">
           A técnica de lente de contato para os dentes consiste em preparar cada
           dente em porcelana, pensado unicamente para cada biotipo da pessoa,
           levando em consideração principalmente a cor, formato e tamanho.
         </p>
+
+        <YoutubeVideo url="https://www.youtube.com/embed/rZ0OVBlTdeg?modestbranding=1&rel=0&fs=0&controls=0" />
+        <p style={{ lineHeight: "120%" }}>
+          <small>
+            Neste vídeo apresentamos um caso de Lentes de Contato Dental no
+            Conceito <b>Complex Smile</b>. <br /> O Diferencial desta Técnica
+            Desenvolvida na <b>Doctor&doctor</b> é que Levamos em Consideração
+            Muitos Elementos Simultaneamente no Planejamento do Sorriso. Como
+            Forma, Cor, Textura, Brilho, Visagismo, dentre Outros
+          </small>
+        </p>
+
+        <br />
+
         <p className="section-sub-title">
           São recomendadas se você quiser resolver:
         </p>
