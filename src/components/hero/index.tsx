@@ -17,6 +17,9 @@ export function Hero() {
             alt={"Dr. Saint Clair"}
             priority
           />
+          <div className="hero-image-description">
+            <small>Dr. Saint Clair B. Netto - Crosp: 39163</small>
+          </div>
         </div>
         <div className="hero-content-wrapper">
           <div className="hero-content">
