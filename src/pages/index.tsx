@@ -1,7 +1,8 @@
 import Head from "next/head";
 import { Svg } from "afb-react-svg";
-import Footer from "@/components/footer";
+import Footer from "@/components/pages/shared/footer";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -28,6 +29,10 @@ export default function Home() {
               orofacial.
             </p>
           </div>
+        </div>
+        <div className="home-navigation">
+          <Link href="/lentes-de-porcelana">Lentes de Porcelana</Link>
+          <Link href="/facetas-de-porcelana">Facetas de Porcelana</Link>
         </div>
         <Image
           src={"/assets/images/dr-saint-clair.jpg"}

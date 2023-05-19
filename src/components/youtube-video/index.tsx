@@ -4,7 +4,7 @@ interface YoutubeVideoProps {
   url?: string;
 }
 
-export function YoutubeVideo({ url }: YoutubeVideoProps) {
+export default function YoutubeVideo({ url }: YoutubeVideoProps) {
   return (
     <YoutubeVideoContainer>
       <iframe

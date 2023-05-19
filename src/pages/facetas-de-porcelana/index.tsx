@@ -1,18 +1,18 @@
 import About from "@/components/pages/shared/about";
-import Cases from "@/components/pages/lentes-de-porcelana/cases";
+import Cases from "@/components/pages/facetas-de-porcelana/cases";
 import ContactUs from "@/components/pages/shared/contact-us";
-import Faq from "@/components/pages/lentes-de-porcelana/faq";
+import Faq from "@/components/pages/facetas-de-porcelana/faq";
 import Footer from "@/components/pages/shared/footer";
-import Head from "@/components/pages/lentes-de-porcelana/head";
-import Hero from "@/components/pages/lentes-de-porcelana/hero";
-import Procedures from "@/components/pages/lentes-de-porcelana/procedures";
-import Testimonials from "@/components/pages/lentes-de-porcelana/testimonials";
+import Head from "@/components/pages/facetas-de-porcelana/head";
+import Hero from "@/components/pages/facetas-de-porcelana/hero";
+import Procedures from "@/components/pages/facetas-de-porcelana/procedures";
+import Testimonials from "@/components/pages/facetas-de-porcelana/testimonials";
 import Script from "next/script";
 
 export default function LentesDePorcelana() {
   return (
     <>
-      <Script id="google-analytics" strategy="afterInteractive">
+      {/* <Script id="google-analytics" strategy="afterInteractive">
         {`
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -22,7 +22,7 @@ export default function LentesDePorcelana() {
           ga('create', 'AW-1070255284', 'auto');
           ga('send', 'pageview');
         `}
-      </Script>
+      </Script> */}
 
       <Head />
       <Hero />

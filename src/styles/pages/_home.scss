@@ -4,3 +4,18 @@
   height: 100vh;
   padding-top: rem-calc(80);
 }
+
+.home-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: rem-calc(40);
+  flex-wrap: wrap;
+  gap: rem-calc(24);
+  padding: rem-calc(0 24px);
+
+  a {
+    color: $orange;
+    font-weight: bold;
+  }
+}

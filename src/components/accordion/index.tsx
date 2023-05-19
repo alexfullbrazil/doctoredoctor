@@ -13,7 +13,11 @@ export interface AccordionProps {
   children?: ReactNode;
 }
 
-export function Accordion({ content, title, children }: AccordionProps) {
+export default function Accordion({
+  content,
+  title,
+  children,
+}: AccordionProps) {
   const [open, setOpen] = useState<boolean>(false);
 
   return (
